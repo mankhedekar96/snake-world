@@ -1,0 +1,36 @@
+.snake {
+  width: 20px;
+  height: 20px;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+  position: absolute;
+  /* animation: blink infinite 0.25s linear; */
+  transition: all 0.2s linear;
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+    animation: blink infinite 0.25s linear;
+}
+
+.bomb {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation: blink infinite 0.25s linear;
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

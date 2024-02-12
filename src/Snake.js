@@ -176,8 +176,8 @@ function Snake() {
     <>
     <div>
         <button onClick={() => setGameSpeed(400)}>Slow</button>
-        <button onClick={() => setGameSpeed(300)}>Medium</button>
-        <button onClick={() => setGameSpeed(200)}>Fast</button>
+        <button onClick={() => setGameSpeed(250)}>Medium</button>
+        <button onClick={() => setGameSpeed(100)}>Fast</button>
     </div>
     <div className='snake-container'>
       {snake.map(({ x, y }, i) => (
